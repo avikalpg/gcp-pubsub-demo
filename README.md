@@ -3,6 +3,13 @@ NodeJS example for Google Cloud Platform's Pub/Sub
 
 This demo was created for my talk on ["Building Scalable Cloud Applications with Pub/Sub Messaging](https://docs.google.com/presentation/d/1w628j5ozticsmPVWU4nGXzLa7xNWwTDx/edit?usp=sharing&ouid=109519938620653154140&rtpof=true&sd=true) during the [GDG Cloud Conversations Event](https://gdg.community.dev/events/details/google-gdg-cloud-bengaluru-presents-cloud-conversations-2024-unleashing-the-power-of-innovation/) in Bengaluru (India) on 10th February 2024.
 
+## Setup
+1. Install the dependencies (there is only one: `@google-cloud/pubsub`)
+```
+npm install
+```
+2. This project assumes that you have `gcloud` CLI set up in your terminal with the correct credentials.
+
 ## How to use
 In order to use this script, you will first have to create a topic and one or two subscriptions. Here are the steps:
 

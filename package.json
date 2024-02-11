@@ -6,6 +6,7 @@
   "scripts": {
 	  "pub": "node publisher.js",
 	  "sub": "node subscriber.js",
+	  "sub2": "node subscriber2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

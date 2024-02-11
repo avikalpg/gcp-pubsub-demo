@@ -1,7 +1,7 @@
 {
-  "name": "publisher",
+  "name": "pubsub",
   "version": "1.0.0",
-  "description": "",
+  "description": "A NodeJS project that demonstrates how Google Cloud's Pub/Sub service works.",
   "main": "publisher.js",
   "scripts": {
 	  "pub": "node publisher.js",
@@ -9,8 +9,8 @@
 	  "sub2": "node subscriber2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Avikalp Kumar Gupta",
+  "license": "MIT",
   "dependencies": {
     "@google-cloud/pubsub": "^4.3.1"
   }
